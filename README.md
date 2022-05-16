@@ -47,5 +47,9 @@ https://www.youtube.com/watch?v=-OTc0Ki7Sv0
 
 https://github.com/rwieruch/react-express-stripe
 
-* as coming from Java backend, the concept of having 2 micro-frontends 
-(x small reactjs apps) is not very common up to my knowledge but solved the issue for me and helped me to make a desision in 2 hours with this Poc.
+
+* Tested with Chrome Version 101.0.4951.64 (Official Build) (x86_64)
+
+To test with  firefox ffmpeg endpoint needs to add this header:
+ 
+```res.header('Cross-Origin-Embedder-Policy', 'require-corp')```
