@@ -11,7 +11,7 @@ switched to JavaFX but wanted to share my finding.
 as mentioned above  [#102](https://github.com/ffmpegwasm/ffmpeg.wasm/issues/102 "#102") 
 ffmpegwasm needs to have Cross-Origin-Opener-Policy &amp; Cross-Origin-Embedder-Policy restricted on the server side, 
 while many ReactJS may need an access to an external js scripts served by different origin i.e hosted checkout page of Stripe  or Google Analysis JS etc.
-Here I have developed 2 micro-frontends  + Expressjs app that renders both micro-frontends.
+Here I have `cloned` 2 micro-reactjs-frontends [wasm + ffmpeg]  from 2 github repos  + Expressjs app that renders both micro-frontends.
 
 * first micro-frontend run ffmpeg 
 you can import any. mp4 video it will convert it to mp3
