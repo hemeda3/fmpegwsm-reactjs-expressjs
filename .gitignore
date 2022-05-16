@@ -1,0 +1,7 @@
+/.idea/
+/backend/build-all/
+/backend/build-all/**
+/frontend/build/
+/frontend-payment/build/
+/frontend/node_modules/
+/frontend-payment/node_modules
