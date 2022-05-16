@@ -38,10 +38,14 @@ This should build 2 frontend, add them to `build-all` folder which served by 2 e
   `res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");`
   
 
-#### Notes
+#### Notes & Thanks
+* Thanks https://github.com/fireship-io/react-wasm-gif-maker 
+nice tutourials here:
+https://www.youtube.com/watch?v=-OTc0Ki7Sv0 
+ 
 * Thansk to  @rwieruch, the Stripe ReactJS code was copied from this repo  :
 
 https://github.com/rwieruch/react-express-stripe
 
 * as coming from Java backend, the concept of having 2 micro-frontends 
-(x small reactjs app) is not very common up to my knowledge but solved the issue for me and helped me to make a desision in 2 hours.
+(x small reactjs apps) is not very common up to my knowledge but solved the issue for me and helped me to make a desision in 2 hours with this Poc.
